@@ -9,14 +9,21 @@ Che domande, un essere curioso che vive qui
   "features": [
     {
       "type": "Feature",
+      "id": 1,
+      "text": "dove abito",
       "properties": {
-        "name": "Saguenay (Arrondissement Latterière)"
+        "ID": 0
       },
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          9.191176689479121,
-          45.46421348424104
+          [
+              [9.1, 45.5],
+              [9.1, 45.4],
+              [9.3, 45.4],
+              [9.3, 45.5],
+              [9.1, 45.5]
+          ]
         ]
       }
     }
